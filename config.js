@@ -1,4 +1,4 @@
-import { watchFile, unwatchFile } from 'fs'
+mimport { watchFile, unwatchFile } from 'fs'
 import { fileURLToPath, pathToFileURL } from 'url'
 import chalk from 'chalk'
 import fs from 'fs'
@@ -12,10 +12,16 @@ const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'))
 const moduleCache = new NodeCache({ stdTTL: 300 });
 
 global.owner = [
-  ['212778494602', '𝕯𝖊ⱥ𝖉𝖑𝐲', true],
-  ['212781816909', 'Luxifer', true],
-  ['639350468907', 'bonzino', true],
-  ['393701330693', 'Blood', true],
+  ['393501989497', 'Endy', true],
+  ['447393088288', 'ksav', true],
+  ['212693877842', 'medalis', true],
+  ['84908983590', 'luxe/nane', true],
+  ['573008626736', 'estreia/stellina', true],
+  ['393926427789', 'knor', true],
+  ['393206032199', 'punisher', true],
+  ['212612624296', 'zak', true],
+  ['447346909408', 'blast', true],
+  ['447935218835', 'exorcism', true],
 ]
 global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx']
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
@@ -23,14 +29,14 @@ global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
 global.nomebot   = 'ZΞYNΩ BΩT'
 global.nomepack  = 'ZΞYNΩ BΩT'
 global.wm        = 'ZΞYNΩ BΩT'
-global.autore    = '𝕯𝖊ⱥ𝖉𝖑𝐲'
-global.dev       = '𝕯𝖊ⱥ𝖉𝖑𝐲'
+global.autore    = 'Ɛղժվ'
+global.dev       = 'Ɛղժվ'
 global.versione  = pkg.version
 global.testobot  = `ZEYNO-CORE-V${pkg.version}`
 global.errore    = '⚠️ *[SYSTEM ERROR]* Usa `.segnala` per inviare il log allo staff.'
 
-global.repobot   = 'https://github.com/axion-bot/axion-bot'
-global.canale    = 'https://whatsapp.com/channel/0029Vb8MQ3U1CYoMEtU1832d'
+global.repobot   = ''
+global.canale    = ''
 
 global.cheerio   = cheerio
 global.fs        = fs
