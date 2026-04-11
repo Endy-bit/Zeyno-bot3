@@ -4,7 +4,7 @@ const handler = async (m, { conn, participants, isAdmin, isOwner }) => {
 
     // 🔐 Permessi: owner OR admin OR premium/mod
     if (!isOwner && !isAdmin && !user.premium) {
-      return m.reply('⛔ *𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐫𝐢𝐬𝐞𝐫𝐯𝐚𝐭𝐨 𝐚𝐥𝐥𝐨 𝐒𝐓𝐀𝐅𝐅 𝐝𝐢 𝐒𝐀𝐂𝐑𝐈𝐅𝐈𝐂𝐄*')
+      return m.reply('⛔ *𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐫𝐢𝐬𝐞𝐫𝐯𝐚𝐭𝐨 𝐚𝐥𝐥𝐨 𝐒𝐓𝐀𝐅𝐅 𝐝𝐢 𝖹𝖤𝖸𝖭𝖮*')
     }
 
     // Link gruppo
