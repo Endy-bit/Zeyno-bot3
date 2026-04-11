@@ -8,7 +8,7 @@ const handler = async (message, { conn, usedPrefix = '.' }) => {
     const totalUsers = Object.keys(global.db?.data?.users || {}).length
 
     const menuBody = `
-『 𝚫𝐗𝐈𝐎𝐍 • 𝐀𝐃𝐌𝐈𝐍 』
+『 ZΞYNΩ BΩT • 𝐀𝐃𝐌𝐈𝐍 』
 ╼━━━━━━━━━━━━━━╾
   ◈ *ᴜsᴇʀ:* @${userId.split('@')[0]}
   ◈ *ᴜᴘᴛɪᴍᴇ:* ${uptimeStr}
