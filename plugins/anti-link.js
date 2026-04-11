@@ -53,7 +53,7 @@ async function handleViolation(conn, m, reason, isBotAdmin) {
   const username = m.sender.split('@')[0]
 
   const fullMessage = `
-『 𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓 』
+『 ZΞYNΩ BΩT 』
 ${reason}
 
 🛡️ L'utente @${username} è stato espulso.
@@ -105,7 +105,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
       return true
     }
   } catch (err) {
-    console.error('Errore AntiLink AXION BOT:', err)
+    console.error('Errore AntiLink ZEYNO BOT:', err)
   }
 
   return false
