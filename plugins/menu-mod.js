@@ -1,6 +1,6 @@
 import { performance } from 'perf_hooks';
 
-const handler = async (message, { conn, usedPrefix = '.' }) => {
+const handler = async (message, { conn, usedPrefix = '!' }) => {
 
     const userId = message.sender;
     const uptimeMs = process.uptime() * 1000;
@@ -8,7 +8,7 @@ const handler = async (message, { conn, usedPrefix = '.' }) => {
     const totalUsers = Object.keys(global.db?.data?.users || {}).length;
 
     const menuBody = `
-『 𝚫𝐗𝐈𝐎𝐍 • 𝐌𝐎𝐃 』
+『 ZΞYNΩ BΩT • 𝐌𝐎𝐃 』
 ╼━━━━━━━━━━━━━━╾
   ◈ *ᴜsᴇʀ:* @${userId.split('@')[0]}
   ◈ *ᴜᴘᴛɪᴍᴇ:* ${uptimeStr}
@@ -26,7 +26,7 @@ const handler = async (message, { conn, usedPrefix = '.' }) => {
 ╰━━━━━━━━━━━━━━━━⬣
 
 ╭━━━〔 📌 ɪɴғᴏ 〕━⬣
-┃ ᴠᴇʀsɪᴏɴᴇ: 1.0
+┃ ᴠᴇʀsɪᴏɴᴇ: 5.0
 ┃ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ⚡
 ╰━━━━━━━━━━━━━━━━⬣
 `.trim();
