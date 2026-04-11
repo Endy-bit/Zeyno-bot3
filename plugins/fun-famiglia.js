@@ -1,4 +1,4 @@
-// by Bonzino
+// by Endy 
 
 import fetch from 'node-fetch'
 
