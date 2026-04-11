@@ -1,4 +1,4 @@
-// plugins abbraccia by Bonzino
+// plugins abbraccia by Endy
 
 const S = v => String(v || '')
 const tag = (jid = '') => '@' + S(jid).split('@')[0].split(':')[0]
@@ -58,7 +58,7 @@ let handler = async (m, { conn }) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363424041538498@newsletter',
-          newsletterName: '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓',
+          newsletterName: 'ZΞYNΩ BΩT',
           serverMessageId: 1
         }
       }
@@ -76,7 +76,7 @@ let handler = async (m, { conn }) => {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363424041538498@newsletter',
-        newsletterName: '𝛥𝐗𝐈𝚶𝐍 𝚩𝚯𝐓',
+        newsletterName: 'ZΞYNΩ BΩT',
         serverMessageId: 1
       },
       mentionedJid: [sender, target]
