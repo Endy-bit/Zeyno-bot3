@@ -1,4 +1,4 @@
-// by Bonzino
+// by Endy
 
 const S = v => String(v || '')
 const bare = j => S(j || '').split('@')[0].split(':')[0]
