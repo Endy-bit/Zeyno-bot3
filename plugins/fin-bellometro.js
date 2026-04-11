@@ -1,4 +1,4 @@
-// by 𝕯𝖊ⱥ𝖉𝖑𝐲 × Bonzino
+// by Ɛղժվ
 
 import { createCanvas, loadImage } from 'canvas'
 
