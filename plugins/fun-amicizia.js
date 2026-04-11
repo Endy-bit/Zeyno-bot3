@@ -1,4 +1,4 @@
-// by Bonzino
+lo// by Endy
 
 const proposals = {}
 
