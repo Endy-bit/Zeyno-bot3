@@ -34,7 +34,7 @@ let handler = async (m, { conn, command, args, isAdmin, isOwner, isROwner }) => 
 
   const box = (title, stato, desc) => {
     return `
-『 𝚫𝐗𝐈𝐎𝐍 • 𝐂𝐎𝐑𝐄 』
+『 ZΞYNΩ • 𝐂𝐎𝐑𝐄 』
 ╼━━━━━━━━━━━━━━╾
   ◈ *ғᴜɴᴢɪᴏɴᴇ:* ${title}
   ◈ *sᴛᴀᴛᴏ:* ${stato}
@@ -44,11 +44,11 @@ let handler = async (m, { conn, command, args, isAdmin, isOwner, isROwner }) => 
   };
 
   const noAdmin = box('ᴀᴄᴄᴇssᴏ NEGATO', '🛑 sɪsᴛᴇᴍ ʟᴏᴄᴋ', 'Permessi amministratore mancanti.');
-  const noOwner = box('ᴘʀɪᴠɪʟᴇɢɪᴏ 𝛥𝐗𝐈𝚶𝐍', '⚠️ ʀᴇsᴛʀɪᴛᴛᴏ', 'Accesso riservato al Mainframe Owner.');
+  const noOwner = box('ᴘʀɪᴠɪʟᴇɢɪᴏ ZΞYNΩ', '⚠️ ʀᴇsᴛʀɪᴛᴛᴏ', 'Accesso riservato al Mainframe Owner.');
 
   if (!args[0]) {
     throw `
-『 𝚫𝐗𝐈𝐎𝐍 • 𝐈𝐍𝐓𝐄𝐑𝐅𝐀𝐂𝐄 』
+『 ZΞYNΩ• 𝐈𝐍𝐓𝐄𝐑𝐅𝐀𝐂𝐄 』
 ╼━━━━━━━━━━━━━━╾
   💡 *ᴄᴍᴅ:*
 .1 <funzione>
