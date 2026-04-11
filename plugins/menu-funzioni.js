@@ -1,6 +1,6 @@
 import { performance } from 'perf_hooks';
 
-const handler = async (m, { conn, usedPrefix = '.' }) => {
+const handler = async (m, { conn, usedPrefix = '!' }) => {
 
   const userId = m.sender
   const uptimeMs = process.uptime() * 1000
@@ -13,7 +13,7 @@ const handler = async (m, { conn, usedPrefix = '.' }) => {
   const stato = (v) => v ? '🟢 ᴏɴ' : '🔴 ᴏғғ'
 
   const menuBody = `
-『 𝚫𝐗𝐈𝐎𝐍 • 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 』
+『 ZΞYNΩ BΩT • 𝐅𝐔𝐍𝐙𝐈𝐎𝐍𝐈 』
 ╼━━━━━━━━━━━━━━╾
   ◈ *ᴜsᴇʀ:* @${userId.split('@')[0]}
   ◈ *ᴜᴘᴛɪᴍᴇ:* ${uptimeStr}
