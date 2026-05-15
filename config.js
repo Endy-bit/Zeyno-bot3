@@ -13,15 +13,10 @@ const moduleCache = new NodeCache({ stdTTL: 300 });
 
 global.owner = [
   ['393501989497', 'Endy', true],
-  ['447393088288', 'ksav', true],
   ['212693877842', 'medalis', true],
-  ['84908983590', 'luxe/nane', true],
-  ['573008626736', 'estreia/stellina', true],
   ['393926427789', 'knor', true],
   ['393206032199', 'punisher', true],
-  ['212612624296', 'zak', true],
-  ['447346909408', 'blast', true],
-  ['447935218835', 'exorcism', true],
+  ['393894321332', 'zak', true],
 ]
 global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx']
 global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx']
